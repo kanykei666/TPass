@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease-in-out;
+}
+body {
+  background: rgba(245, 246, 247, 1);
+}
+.container {
+  max-width: 1340px;
+  width: 100%;
+  margin-inline: auto;
+}
+.header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  background: rgba(15, 35, 54, 1);
+  border-radius: 5px;
+  list-style: none;
+  width: 130px;
+  height: 50px;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(15, 35, 54, 1);
+}
+nav a {
+  text-decoration: none;
+  color: rgba(15, 35, 54, 1);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}
+nav a {
+  text-align: center;
+  margin: 60px;
+}
+.main-text {
+  width: 630px;
+  line-height: 100px;
+  font-size: 45px;
+  font-weight: 700;
+}
+#main {
+  padding: 60px 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-img {
+  position: relative;
+}
+
+#img-2 {
+  position: absolute;
+  left: -156px;
+  z-index: -1;
+}
+.blue {
+  display: block;
+  color: rgba(0, 204, 204, 1);
+}
+.yellow {
+  color: rgba(243, 175, 71, 1);
+}
+.main-text button {
+  width: 208px;
+  height: 60px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(15, 35, 54, 1);
+  background: rgba(0, 204, 204, 1);
+  border: 1px solid rgba(0, 204, 204, 1);
+}
+.main-text button:hover {
+  box-shadow: 6px rgba(0, 204, 204, 1);
+}
+#order {
+  display: flex;
+}
+.img-order {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.orders p {
+  width: 296px;
+  height: 48px;
+  color: rgba(87, 109, 129, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.orders h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+#how {
+  padding: 150px 0;
+}
+.how {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(128, 128, 128, 0.119);
+  border-radius: 25px;
+  height: 500px;
+  z-index: -10;
+}
+.how-img {
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+#chips {
+  position: absolute;
+  bottom: -80px;
+  right: -100px;
+  z-index: 3;
+}
+#tea {
+  position: absolute;
+  left: 110px;
+  bottom: 50px;
+}
+#template {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+#content {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  z-index: 1;
+}
+.how-text {
+  width: 414px;
+  padding: 0 250px 0 0;
+}
+.how-text h4 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(87, 109, 129, 1);
+}
+.how-text h2 {
+  padding: 30px 0 0 0;
+  width: 150px;
+  height: 56px;
+  font-size: 32px;
+  font-weight: 900;
+  color: rgba(15, 35, 54, 1);
+}
+.how-text p {
+  padding: 40px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(87, 109, 129, 1);
+}
+#points {
+  background: rgba(128, 128, 128, 0.265);
+  border-radius: 25px;
+  z-index: -10;
+}
+.points {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.points-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 450px;
+}
+.points-texts .points-text:nth-child(2) {
+  align-self: flex-end;
+}
+.points-text {
+  display: flex;
+  align-items: flex-start;
+  width: 320px;
+  height: 179px;
+  background: white;
+}
+.points-text p {
+  color: rgba(87, 109, 129, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.points-text h3 {
+  color: rgba(15, 35, 54, 1);
+  font-size: 25px;
+  font-weight: 700;
+}
+.points-text {
+  padding: 0 0 0 80px;
+  align-items: center;
+}
+#group {
+  padding: 150px 0;
+}
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(128, 128, 128, 0.119);
+  border-radius: 25px;
+  height: 500px;
+  z-index: -10;
+}
+.group-text h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(87, 109, 129, 1);
+}
+.group-text h1 {
+  margin-top: 50px;
+  width: 300px;
+  height: 56px;
+  font-size: 40px;
+  font-weight: 900;
+  color: rgba(15, 35, 54, 1);
+}
+.group-text p {
+  margin-top: 60px;
+  width: 404px;
+  height: 96px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(87, 109, 129, 1);
+}
+.group-img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+#windows {
+  position: absolute;
+  top: -111px;
+  left: 20px;
+  z-index: 4;
+}
+#tea2 {
+  position: absolute;
+  z-index: 3;
+  right: -40px;
+  bottom: -30px;
+}
+#telephone {
+  position: absolute;
+  top: -130px;
+  z-index: 5;
+}
+#image4 {
+  position: absolute;
+  z-index: 2;
+  bottom: -110px;
+  left: -100px;
+}
+.enjoy img {
+  display: flex;
+  align-items: center;
+}
+#enjoy {
+  padding: 200px 0 0 0;
+}
+.enjoy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.enjoy-btn {
+  display: flex;
+  flex-wrap: wrap;
+  width: 570px;
+  gap: 10px;
+}
+.enjoy h1 {
+  width: 500px;
+  height: 120px;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: rgba(15, 35, 54, 1);
+}
+.enjoy-btn input {
+  width: 370px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  background: rgba(240, 240, 242, 1);
+  color: rgba(128, 128, 128, 0.283);
+  border-radius: 6px;
+  border: 1px solid rgba(240, 240, 242, 1);
+}
+.enjoy-btn button {
+  width: 156px;
+  height: 55px;
+  background: rgba(0, 204, 204, 1);
+  border-radius: 14px;
+  color: rgba(15, 35, 54, 1);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid rgba(0, 204, 204, 1);
+}
+#company {
+  margin-top: 100px;
+  height: 300px;
+  background: rgba(15, 35, 54, 1);
+}
+.company {
+  position: relative;
+  display: flex;
+}
+.pass2 ul li {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 25px;
+  font-size: 14px;
+  list-style: none;
+}
+.pass2 {
+  margin-left: 400px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  color: white;
+}
+.pass {
+  margin: 80px 0 0 180px;
+  display: flex;
+  justify-content: space-between;
+}
+#list2 {
+  position: absolute;
+  right: -90px;
+  top: 50px;
+}
+#list {
+  position: absolute;
+  left: -87px;
+  top: -70px;
+}
+.pass2 ul li:first-child {
+  color: rgba(0, 204, 204, 1);
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
